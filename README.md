@@ -7,3 +7,6 @@ You need gcc installed to install go-sqlite3. Cygwin isn't supported. You need t
 `$ pacman -S mingw-w64-x86_64-gcc`
 
 I temporarily added "C:\msys64\mingw64\bin\" to my %PATH% and was able to install go-sqlite3 afterwards.
+
+## Build.bat
+Shrink the final exe. If UPX (the Ultimate Packer for eXecutables) is in your current %PATH% it will compress the exe. Combining the flags and upx the final exe is about 1/8th the original size.
